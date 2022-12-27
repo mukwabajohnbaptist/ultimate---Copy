@@ -15,7 +15,7 @@ import Trek11 from '../images/Trek11.png'
 import Trek12 from '../images/Trek12.jpg'
 import Trek13 from '../images/Trek13.jpg'
 import Trek14 from '../images/Trek14.jpg'
-import fort_portal from '../images/fort_portal.png'
+import fortportal from '../images/fortportal.png'
 import lake from '../images/lake.png'
 import weekend from '../images/weekend.png'
 
@@ -37,7 +37,7 @@ export {
     Trek12,
     Trek13,
     Trek14,
-    fort_portal,
+    fortportal,
     lake,
     weekend,
 }
