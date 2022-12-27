@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { fort_portal, weekend, lake } from "../images/images";
+import { fortportal, weekend, lake } from "../images/images";
 
 const Events = () => {
   return (
@@ -142,7 +142,7 @@ const Events = () => {
 
         <div className="cursor-pointer rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
           <div className="relative flex items-end overflow-hidden rounded-xl">
-            <img src={fort_portal} alt="wallpaper" />
+            <img src={fortportal} alt="wallpaper" />
 
             <div className="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
               <svg
