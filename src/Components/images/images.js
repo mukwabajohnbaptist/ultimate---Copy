@@ -18,6 +18,10 @@ import Trek14 from '../images/Trek14.jpg'
 import fortportal from '../images/fortportal.png'
 import lake from '../images/lake.png'
 import weekend from '../images/weekend.png'
+import brand1 from '../images/Shimano.svg.png'
+import brand2 from '../images/Maxxis.svg'
+import brand3 from '../images/SRAM.svg.png'
+import brand4 from '../images/wpl.png'
 
 export {
     logo,
@@ -40,4 +44,8 @@ export {
     fortportal,
     lake,
     weekend,
+    brand1,
+    brand2,
+    brand3,
+    brand4,
 }

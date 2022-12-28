@@ -1,5 +1,4 @@
 import React from "react";
-import { logo } from "../images/images";
 import { Link } from "react-router-dom";
 
 const PrimaryFooter = () => {
@@ -12,28 +11,28 @@ const PrimaryFooter = () => {
               <p className="font-medium tracking-wide text-red-500">Category</p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Bike tours
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Jungle safaries
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Camping
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -41,44 +40,44 @@ const PrimaryFooter = () => {
               <p className="font-medium tracking-wide text-red-500">Apples</p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Web
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     eCommerce
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Business
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Entertainment
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Portfolio
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -86,44 +85,44 @@ const PrimaryFooter = () => {
               <p className="font-medium tracking-wide text-red-500">Cherry</p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Media
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Brochure
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Nonprofit
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Educational
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Projects
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -131,36 +130,36 @@ const PrimaryFooter = () => {
               <p className="font-medium tracking-wide text-red-500">Business</p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Infopreneur
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Personal
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Wiki
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-orange-100"
                   >
                     Forum
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

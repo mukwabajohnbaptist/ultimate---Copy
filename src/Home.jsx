@@ -9,9 +9,8 @@ import Events from "./Components/Home/Events";
 import Minblogs from "./Components/Home/Minblogs";
 import PrimaryFooter from "./Components/Home/PrimaryFooter";
 import Brands from "./Components/Home/Brands";
-import Gallery from "./Components/Home/Gallery";
-
 import { hero } from "./data/data.js";
+
 
 function Home() {
   return (
@@ -23,7 +22,6 @@ function Home() {
       <Events />
       <Welcome />
       <Minblogs />
-      <Gallery />
       <Brands />
       <PrimaryFooter />
     </div>

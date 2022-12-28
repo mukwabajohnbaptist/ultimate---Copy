@@ -7,6 +7,7 @@ import Blogs from './main_pages/Blogs'
 import Contact_us from './main_pages/Contact_us'
 import Faq from './main_pages/Faq'
 import Admin from './Admin/Admin'
+import Blogsample from './main_pages/Blogsample'
 import '../src/index.css'
 import {
   createBrowserRouter,
@@ -47,7 +48,11 @@ const router = createBrowserRouter([
   {
     path: "/Faq",
     element: <Faq/>,
-  },  
+  },
+  {
+    path: "Blogsample",
+    element: <Blogsample/>
+  }  
 
 ]);
 
