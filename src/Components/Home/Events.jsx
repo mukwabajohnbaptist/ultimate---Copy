@@ -40,12 +40,13 @@ const Events = () => {
           Upcoming Events{" "}
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Book your ultimate weekend guided MTB experience with us when you choose from our latest picks
+          Book your ultimate weekend guided MTB experience with us when you
+          choose from our latest picks
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
         <div className="cursor-pointer rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
-          <div className="relative flex items-end overflow-hidden rounded-xl">
+          <div className="w-full h-64  relative flex items-end overflow-hidden rounded-xl">
             <img src={lake} alt="wallpaper" />
 
             <div className="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
@@ -74,7 +75,9 @@ const Events = () => {
             <p className="mt-1 text-sm text-slate-400">Kampala, Uganda</p>
             <div className="mt-3 flex items-end justify-between">
               <p>
-                <span className="text-lg font-bold text-orange-500">$1,421</span>
+                <span className="text-lg font-bold text-orange-500">
+                  $1,421
+                </span>
                 <span className="text-sm text-slate-400">/Day</span>
               </p>
 
@@ -92,56 +95,53 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="cursor-pointer rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
-          <div className="relative flex items-end overflow-hidden rounded-xl">
-            <img src={weekend} alt="wallpaper" />
+        <div className=" rounded-xl bg-green-900 p-3 shadow-lg hover:shadow-xl">
+          <div className="w-full h-64 relative flex items-end overflow-hidden rounded-xl">
+            <img className=" object-cover hover:scale-110 " src={weekend} alt="wallpaper" />
 
-            <div className="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+            <div className="absolute bottom-0 left-4 inline-flex items-center rounded-t bg-red-500 p-2 shadow-md text-lg font-bold text-orange-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-yellow-400"
+                className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
               </svg>
 
-              <span className="ml-1 text-sm text-slate-400">4.9</span>
+              <span className="ml-1">ON SALE</span>
             </div>
           </div>
 
           <div className="mt-1 p-2">
-            <a
-              href="/"
+            <Link
+              to="/Events"
               aria-label="Category"
               title="Visit the East"
-              className="inline-block mb-3 text-lg font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
+              className="inline-block mb-3 text-lg font-bold leading-5 text-white transition-colors duration-200 hover:text-orange-500"
             >
               Weekend ride accross Lake victoria
-            </a>{" "}
-            <p className="mt-1 text-sm text-slate-400">Kampala, Uganda</p>
+            </Link>{" "}
+            <p className="mt-1 text-sm text-yellow-500">Kampala, Uganda</p>
             <div className="mt-3 flex items-end justify-between">
               <p>
-                <span className="text-lg font-bold text-orange-500">$1,421</span>
-                <span className="text-sm text-slate-400">/Day</span>
+                <span className="text-lg font-bold text-green-500">
+                  $1,421
+                </span>
+                <span className="text-sm text-yellow-500">/Day</span>
               </p>
 
-              <div className="group inline-flex rounded-xl bg-orange-100 p-2 hover:bg-orange-200">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 text-orange-400 group-hover:text-orange-500"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" />
-                </svg>
+              <div className="group inline-flex items-center text-white rounded bg-green-500 p-2 hover:bg-orange-500">
+                <Link to="/Events">
+                  <i className="fa fa-bookmark mr-2"></i> BOOK NOW
+                </Link>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="cursor-pointer rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
-          <div className="relative flex items-end overflow-hidden rounded-xl">
+        <div className="cursor-pointer rounded-xl bg-green p-3 shadow-lg hover:shadow-xl">
+          <div className="w-full h-64 relative flex items-end overflow-hidden rounded-xl">
             <img src={fortportal} alt="wallpaper" />
 
             <div className="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
@@ -171,7 +171,9 @@ const Events = () => {
 
             <div className="mt-3 flex items-end justify-between">
               <p>
-                <span className="text-lg font-bold text-orange-500">$1,421</span>
+                <span className="text-lg font-bold text-orange-500">
+                  $1,421
+                </span>
                 <span className="text-sm text-slate-400">/Day</span>
               </p>
 
